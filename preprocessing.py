@@ -29,7 +29,7 @@ X = df.drop('income', axis=1)
 y = df['income'].to_frame()
 
 # Split X into continous variables and categorical variables
-X_continous  = X[['age', 'capital.gain', 'capital.loss'#]], 'hours.per.week']]
+X_continous  = X[['age', 'capital.gain', 'capital.loss', 'hours.per.week']]
 
 X_categorical = X[['workclass', 'education', 'marital.status', 'occupation', 'relationship', 'race',
                    'sex', 'native.country']]
